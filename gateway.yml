@@ -1,0 +1,10 @@
+zuul:
+  routes:
+    ecommerce:
+       url: http://localhost:8080
+server:
+  port: 8888
+eureka:
+  client:
+    enabled: false
+
